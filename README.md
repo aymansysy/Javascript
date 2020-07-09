@@ -37,7 +37,7 @@ les8_Tasks
 -- You can use a ul and li to display all the favBooks
 -- Add an <img> to each book that links to a URL of the book cover. [you can get the links from google]
 -- Change the style of the book based on whether you have read it (green) or not (crimson).
-// *******************************************************************************************************************************************
+// *********************************************************************************************************************************************************
    2- We have a simple HTMl page and it contains all these elements
 -- <!DOCTYPE html>
 <html>
@@ -62,27 +62,27 @@ les8_Tasks
 -- Add a link tag to link your style file [style.css] that sets a rule for .list-item to make the color crimson.
 -- Create a new img element and set its src attribute to a picture of you and append it to the body
 -- create a bold tag to tell the reader that these data describe your story information by saying [some message.....]
-// *******************************************************************************************************************************************
+// **************************************************************************************************************************************************************
      3- we need here to replace the image/logo from this site ['https://www.bing.com/'] so
 -- try to access the img/logo from the inspector of your google chrome and try to replace the current img/logo with something else
 -- try to modify the style of the current search box but don't forget to access the search box and check if you can access it's properties and store them into any variable
-// *******************************************************************************************************************************************
+// *************************************************************************************************************************************************************
      4- Create a basic HTML file with any elements you deterine if you can get any benfits from them and include the script tag to your file[app.js]
 -- try to fetch the current time in this format [hh:mm:ss] => [hour: min: sec]. hint: you need to use google to check what the correct function is 
 -- use this function [setInterval()] to make sure the time stays current .. hint: you need to use google or you can ask me once you give up..
 -- check how to run the function when you load the page..
-// *******************************************************************************************************************************************
+// ************************************************************************************************************************************************************
     5- create any html page[index.html] and add this tag to your file in static way [in your html without js, normal adding] 
  -- this is the tag <img style="position:absolute;" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/javascript.png" /> 
  -- create a variable to store the img reference 
  -- Change the style of the img to have a "left" of "0px", so that it starts at the left hand of the screens. [it's already absolute]
  -- Create a function called moveJS() that moves the img 20 pixels to the right of where it started, by changing the "left" style property.
-// *******************************************************************************************************************************************
+// **************************************************************************************************************************************************************
      6- I have this varaible, str = '1111111111111111';
 -- convert the content of str to an array 
 -- use reduce to calcualte all the numbers
 -- print the result in a clear sentence
-// *******************************************************************************************************************************************
+// *************************************************************************************************************************************************************
 const data = [
   { name: "Rleated Party", status: "Inactive" }, // Inctive
   { name: "Customer", status: "Former Prospect" }, // Inactive
