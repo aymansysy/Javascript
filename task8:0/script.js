@@ -1,9 +1,9 @@
 //0- I have an img and it's in the attachments, try to destructure the entrie file by exposing all the attributes one by one 
 //-- try to express the output by saying some clear sentences which make sense like "Hello guys, I'm [username]" etc....
 //^^ you can see the file in the attachments of this task ^^
-//////const obj = '{ "id": 1, "name": "Leanne Graham","username": "Bret", "email": "Sincere@apr.biz", "address": {"street": {"street_one": "Kulas Light","street_two": "Kampala"},"suite": "Apt. 556","city": "Gwenborough","zipcode": "92998-3847","geo": {"lat": "-37.3159","lng": "81.1496"}},"phone": "1-770-736-8031 x56442","website": "hildegard","compamy": {"name": "Romaguera-Crone","catchPhrase": "Multi-layered client-server natural-net","bs": "harness real-time e-markets"}}';
-///const data = JSON.parse(obj);
-///console.log("Hello guys, my id is: " + data.id + ", I'm "+ data.name + ", my username is: "+ data.username + ", my email is: "+ data.email+ " etc...");
+const obj = '{ "id": 1, "name": "Leanne Graham","username": "Bret", "email": "Sincere@apr.biz", "address": {"street": {"street_one": "Kulas Light","street_two": "Kampala"},"suite": "Apt. 556","city": "Gwenborough","zipcode": "92998-3847","geo": {"lat": "-37.3159","lng": "81.1496"}},"phone": "1-770-736-8031 x56442","website": "hildegard","compamy": {"name": "Romaguera-Crone","catchPhrase": "Multi-layered client-server natural-net","bs": "harness real-time e-markets"}}';
+const data = JSON.parse(obj);
+console.log("Hello guys, my id is: " + data.id + ", I'm "+ data.name + ", my username is: "+ data.username + ", my email is: "+ data.email+ " etc...");
 ///-------------------------------------------------------------------------------------------------------------------------------------------------------------
 //1- I want to to expose my books inside my webpage
 const favBooks = [
